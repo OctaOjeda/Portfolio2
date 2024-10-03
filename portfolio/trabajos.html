@@ -12,16 +12,29 @@
             margin: 50px;
         }
 
+        header{
+            background-color: lightblue;
+        }
+
         footer{
             color: forestgreen;
             text-align: center;
             margin-top: 150px;
+            background-color: lightblue;
         }
 
-        nav{
-            color: black;
+        nav > a{
+            color: forestgreen;
             font-size: small;
             font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .nav{
+            word-spacing: 15px;
+        }
+
+        .sobremi{
+            word-spacing: 2px;
         }
 
         main{
@@ -31,12 +44,12 @@
             margin: 75px;
         }
 
-        h2.Subtitu{
+        .Subtitu{
             text-align: center;
             text-decoration: underline forestgreen;
         }
 
-        #trabajo1{
+        .trabajo1{
             text-align: right;
         }
 
@@ -46,8 +59,8 @@
     <header>
         <h1><i>Octavio Ezequiel Ojeda Azocar</i></h1>
 
-    <nav>
-        <a href="sobre-mi.html">Sobre mi</a>
+    <nav class="nav">
+        <a class="sobremi" href="sobre-mi.html">Sobre mi</a>
         <a href="habilidades.html">Habilidades</a>
         <a href="trabajos.html">Trabajos</a>
         <a href="contactos.html">Contactos</a>
@@ -63,7 +76,7 @@
                 <li>Página de portafolio personal utilizando HTML, CSS y JavaScript</li>
             </ul>
     <section>
-    <section id="trabajo1">
+    <section class="trabajo1">
         <img id="trabajo" src="Trabajo.jpeg" alt="tra" width="400">
     </section>   
 </main>

@@ -12,16 +12,29 @@
             margin: 50px;
         }
 
+        header{
+            background-color: lightblue;
+        }
+
         footer{
             color: forestgreen;
             text-align: center;
             margin-top: 150px;
+            background-color: lightblue;
         }
 
-        nav{
-            color: black;
+        nav > a{
+            color: forestgreen;
             font-size: small;
             font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .nav{
+            word-spacing: 15px;
+        }
+
+        .sobremi{
+            word-spacing: 2px;
         }
 
         main{
@@ -32,12 +45,14 @@
             margin: 75px;
         }
 
-        #info{
+        .info{
+            margin: 0 auto;
+            width: 30%;
             border: 2px solid forestgreen;
             padding: 20px;
         }
 
-        h2.Subtitu{
+        .Subtitu{
             text-align: center;
             text-decoration: underline forestgreen;
         }
@@ -48,8 +63,8 @@
     <header>
         <h1><i>Octavio Ezequiel Ojeda Azocar</i></h1>
 
-    <nav>
-        <a href="sobre-mi.html">Sobre mi</a>
+    <nav class="nav">
+        <a class="sobremi" href="sobre-mi.html">Sobre mi</a>
         <a href="habilidades.html">Habilidades</a>
         <a href="trabajos.html">Trabajos</a>
         <a href="contactos.html">Contactos</a>
@@ -58,7 +73,7 @@
     </header>
 <main>
     <h2 class="Subtitu">Contactos</h2>
-    <section id="info">
+    <section class="info">
         <p>Yo soy</p>
         <p><strong>Octavio Ojeda</strong></p>
         <p>Futbolista & Estudiante de progamcion</p>
